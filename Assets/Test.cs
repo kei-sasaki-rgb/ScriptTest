@@ -19,9 +19,16 @@ public class Test : MonoBehaviour
 
         // 配列の要素をすべて表示する
         for (int i = 0; i < 5; i++)
+
         {
             Debug.Log(array[i]);
         }
+
+        for (int i =4;  0 <=i ; i--)
+
+        {
+            Debug.Log(array[i]);
+        } 
     }
 
     // Update is called once per frame
